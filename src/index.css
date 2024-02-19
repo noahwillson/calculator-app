@@ -1,0 +1,55 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-color: #fefefe;
+}
+
+.App{
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.last{
+  display: block;
+  padding-left: 10px;
+}
+
+.current{
+  display:inline-block;
+  width: 50%;
+  height: 20px;
+  margin: 10px 10px 10px 0;
+  padding: 5px 5px 10px 10px;
+  border: 2px solid #696969;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+.calcbtns {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px ;
+}
+
+.btn1, .btn2, .btn3, .btn4{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
+.btn5, .btn6{
+  color: white;
+  background-color: rgb(255,98,71);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button{
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
